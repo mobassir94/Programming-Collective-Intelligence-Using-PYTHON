@@ -46,9 +46,9 @@ def pearsons_r(prefs,p1,p2):
     if denominator == 0: return 0
 
     r = numerator/denominator
-    print(r)
+    return r
 
 
 # calling pearsons_r method
 
-pearsons_r(critics, 'Michael Phillips','Toby')
+res = pearsons_r(critics, 'Michael Phillips','Toby')
