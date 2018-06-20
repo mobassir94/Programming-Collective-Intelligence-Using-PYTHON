@@ -5,7 +5,7 @@ these results to calculate the sum of the pearson correlation coefficient (r)-->
 "calculating pearson correlation coefficient r"
 ...........................................................
 
-Details on [earson correlation coefficient here : https://study.com/academy/lesson/pearson-correlation-coefficient-formula-example-significance.html
+Details on pearson correlation coefficient here : https://study.com/academy/lesson/pearson-correlation-coefficient-formula-example-significance.html
 
 Pearson's r calculating formula here : https://study.com/cimages/multimages/16/begning.jpg
 
