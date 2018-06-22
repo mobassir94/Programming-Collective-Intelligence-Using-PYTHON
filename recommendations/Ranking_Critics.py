@@ -18,6 +18,7 @@ def topmatches(prefs,person,n,similarity = pearsons_r):
 
 #calling the topmatches method
 
-result = topmatches(critics,'Toby',n=3)
-for peoples in result:
-    print(peoples)
+#print('Ranking movies based on pearsons score :')
+#result = topmatches(critics,'Toby',n=3)
+#for peoples in result:
+    #print(peoples)
