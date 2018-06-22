@@ -1,5 +1,6 @@
 from recommendationDataset import critics
-
+from RecommendMovie import getRecommendation
+import Ranking_Critics
 def transformPrefs(prefs):
     results = {}
     for person in prefs:
@@ -17,8 +18,14 @@ def transformPrefs(prefs):
 movies = transformPrefs(critics)
 print(movies)
 
-import Ranking_Critics
+
 #Ranking_Critics.topmatches()
 
 matches = Ranking_Critics.topmatches(movies,'Just My Luck',n=5)
 print(matches)
+
+recommendation = getRecommendation(movies,'Just My Luck')
+
+print('recommended : ')
+for match in recommendation:
+    print(match)
